@@ -24,19 +24,3 @@ INSERT into CURSO VALUES (103,"Programacion en Java","POO en Java",35,"noche",4)
 INSERT into CURSO VALUES (104,"Programacion Wed","algoritmos y estructuras de datos",35,"noche",5);
 INSERT into CURSO VALUES (105,"Programacion C#",".NET,Visual Studio 2019",30,"noche",6);
 
-
-
-SELECT nombre, apellido, fecha_nacimiento FROM PROFESOR ORDER BY
-fecha_nacimiento;
-
-SELECT * FROM PROFESOR WHERE salario >= 65000;
-
-select * from PROFESOR where fecha_nacimiento between '1980-01-01' and
-'1989-12-31';
-
-SELECT * FROM PROFESOR LIMIT 5;
-
-SELECT * FROM PROFESOR WHERE apellido LIKE 'P%';
-
-SELECT * FROM PROFESOR WHERE fecha_nacimiento between '1980-01-01' and
-'1989-12-31' AND salario > 80000;

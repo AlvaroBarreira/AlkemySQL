@@ -1,1 +1,1 @@
-# AlkemySQL
+# AlkemySQL exercises.

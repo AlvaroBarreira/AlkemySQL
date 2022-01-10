@@ -26,17 +26,3 @@ INSERT into CURSO VALUES (105,"Programacion C#",".NET,Visual Studio 2019",30,"no
 
 
 
-SELECT nombre, apellido, fecha_nacimiento FROM PROFESOR ORDER BY
-fecha_nacimiento;
-
-SELECT * FROM PROFESOR WHERE salario >= 65000;
-
-select * from PROFESOR where fecha_nacimiento between '1980-01-01' and
-'1989-12-31';
-
-SELECT * FROM PROFESOR LIMIT 5;
-
-SELECT * FROM PROFESOR WHERE apellido LIKE 'P%';
-
-SELECT * FROM PROFESOR WHERE fecha_nacimiento between '1980-01-01' and
-'1989-12-31' AND salario > 80000;
